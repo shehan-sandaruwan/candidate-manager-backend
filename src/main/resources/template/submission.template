@@ -1,0 +1,23 @@
+<html>
+<head>
+    <style>
+        .boxone {
+            background-color: rgba(201, 76, 76, 0.2);
+            margin-left: 50px;
+            width: 600px;
+            padding: 20px;
+
+        }
+    </style>
+</head>
+<body>
+<p><img src="http://s3.amazonaws.com/public-ziprecruiter/uploads/2cd5bdb0.jpeg" alt="SyscoLABS" width="196"
+        height="40"/></p>
+<div class="boxone">
+    <p>Dear @salutation@,</p>
+    <p>@description@</p>
+    @data@
+    <p>@greeting@</p>
+</div>
+</body>
+</html>

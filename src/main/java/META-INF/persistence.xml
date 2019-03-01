@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="NewPersistenceUnit">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+        <class>lk.syscolabs.candidatemanager.model.Application</class>
+        <class>lk.syscolabs.candidatemanager.model.Department</class>
+        <class>lk.syscolabs.candidatemanager.model.Feedback</class>
+        <class>lk.syscolabs.candidatemanager.model.Field</class>
+        <class>lk.syscolabs.candidatemanager.model.InterviewForm</class>
+        <class>lk.syscolabs.candidatemanager.model.Panel</class>
+        <class>lk.syscolabs.candidatemanager.model.Position</class>
+        <class>lk.syscolabs.candidatemanager.model.Profile</class>
+        <class>lk.syscolabs.candidatemanager.model.ProfileField</class>
+        <class>lk.syscolabs.candidatemanager.model.Schedule</class>
+        <class>lk.syscolabs.candidatemanager.model.State</class>
+        <class>lk.syscolabs.candidatemanager.model.User</class>
+        <class>lk.syscolabs.candidatemanager.model.DepartmentState</class>
+        <class>lk.syscolabs.candidatemanager.model.OldApplication</class>
+        <class>lk.syscolabs.candidatemanager.model.UserPrivilege</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/"/>
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver"/>
+            <property name="hibernate.connection.username" value=""/>
+            <property name="hibernate.connection.password" value=""/>
+            <property name="hibernate.archive.autodetection" value="class"/>
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <property name="hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>
